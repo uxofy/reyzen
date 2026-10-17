@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "rayzen",
+  "version": "${version}",
+  "name": "Rayzen",
+  "description": "ПКМ по якорю возрождения: светокамень -> заряд -> меч.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.rayzen.RayzenClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
